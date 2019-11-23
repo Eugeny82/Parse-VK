@@ -17,7 +17,7 @@ namespace VKAPI_WinForm
             {
                 File.AppendAllText("LogParsing.txt", DateTime.Now.ToString() + " => " + str);
             }
-            catch{}
+            catch{} 
         }
     }
 }
